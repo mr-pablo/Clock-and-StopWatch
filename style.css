@@ -1,0 +1,75 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+#time{
+    width: 400px;
+    height: 120px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid black 2px;
+    font-size: 80px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+.view-button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(48, 222, 48);
+    color: aliceblue;
+    border-radius: 10px;
+    border: solid black 2px;
+    
+}
+/* #cs{
+    /* color: red; */
+/* } */
+
+#stopwatch{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    display: none;
+    flex-direction:column ;
+    border: solid black 2px;
+}
+
+#timers{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;   
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+#buttons{
+    gap: 10px   ;
+    height: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.bttn{
+    width: 80px;
+    height: 30px;
+}
+#change-bttn{
+    height: 50px;
+}
